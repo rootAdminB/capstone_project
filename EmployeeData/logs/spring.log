@@ -1,0 +1,62 @@
+2023-04-27 01:41:18.267  INFO 26964 --- [main] c.p.e.EmployeeDataApplication            : Starting EmployeeDataApplication using Java 17.0.6 on LAPTOP-59UL2VS7 with PID 26964 (C:\sts\EmployeeData\bin\main started by Bawankar in C:\sts\EmployeeData)
+2023-04-27 01:41:18.279  INFO 26964 --- [main] c.p.e.EmployeeDataApplication            : No active profile set, falling back to 1 default profile: "default"
+2023-04-27 01:41:21.141  INFO 26964 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-04-27 01:41:21.328  INFO 26964 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 154 ms. Found 1 JPA repository interfaces.
+2023-04-27 01:41:22.151  INFO 26964 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.ws.config.annotation.DelegatingWsConfiguration' of type [org.springframework.ws.config.annotation.DelegatingWsConfiguration$$EnhancerBySpringCGLIB$$db74e8ce] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2023-04-27 01:41:22.340  INFO 26964 --- [main] .w.s.a.s.AnnotationActionEndpointMapping : Supporting [WS-Addressing August 2004, WS-Addressing 1.0]
+2023-04-27 01:41:23.073  INFO 26964 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8484 (https)
+2023-04-27 01:41:23.104  INFO 26964 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-04-27 01:41:23.106  INFO 26964 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.74]
+2023-04-27 01:41:23.478  INFO 26964 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-04-27 01:41:23.479  INFO 26964 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 4971 ms
+2023-04-27 01:41:24.002  INFO 26964 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-04-27 01:41:24.176  INFO 26964 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.6.15.Final
+2023-04-27 01:41:24.691  INFO 26964 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2023-04-27 01:41:25.008  INFO 26964 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2023-04-27 01:41:25.892  INFO 26964 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2023-04-27 01:41:25.995  INFO 26964 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2023-04-27 01:41:27.879  INFO 26964 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-04-27 01:41:27.911  INFO 26964 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-04-27 01:41:28.853  WARN 26964 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-04-27 01:41:32.070  INFO 26964 --- [main] o.a.t.util.net.NioEndpoint.certificate   : Connector [https-jsse-nio-8484], TLS virtual host [_default_], certificate type [UNDEFINED] configured from [file:/C:/sts/EmployeeData/bin/main/keystore.jks] using alias [mydomain] and with trust store [null]
+2023-04-27 01:41:32.136  INFO 26964 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8484 (https) with context path ''
+2023-04-27 01:41:32.166  INFO 26964 --- [main] c.p.e.EmployeeDataApplication            : Started EmployeeDataApplication in 15.2 seconds (JVM running for 17.543)
+2023-04-27 01:41:46.503  INFO 26964 --- [https-jsse-nio-8484-exec-6] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-04-27 01:41:46.503  INFO 26964 --- [https-jsse-nio-8484-exec-6] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2023-04-27 01:41:46.503  INFO 26964 --- [https-jsse-nio-8484-exec-6] o.s.web.servlet.DispatcherServlet        : Completed initialization in 0 ms
+2023-04-27 01:42:49.583  INFO 26964 --- [https-jsse-nio-8484-exec-8] c.p.e.controller.EmployeeController      : Getting user by ID: 5 checking..............
+2023-04-27 01:43:13.673  INFO 26964 --- [https-jsse-nio-8484-exec-4] c.p.e.controller.EmployeeController      : Getting user by ID: 349 checking..............
+2023-04-27 02:41:03.091  WARN 26964 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1m6s239ms840µs).
+2023-04-27 02:51:34.566  INFO 26964 --- [RMI TCP Connection(80)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
+2023-04-27 02:51:34.759  INFO 26964 --- [RMI TCP Connection(80)-127.0.0.1] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2023-04-27 02:51:34.775  INFO 26964 --- [RMI TCP Connection(80)-127.0.0.1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Destroying Spring FrameworkServlet 'dispatcherServlet'
+2023-04-27 02:51:34.835  INFO 26964 --- [RMI TCP Connection(80)-127.0.0.1] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-04-27 02:51:34.866  INFO 26964 --- [RMI TCP Connection(80)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2023-04-27 02:51:34.880  INFO 26964 --- [RMI TCP Connection(80)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2023-04-27 02:51:43.547  INFO 23368 --- [main] c.p.e.EmployeeDataApplication            : Starting EmployeeDataApplication using Java 17.0.6 on LAPTOP-59UL2VS7 with PID 23368 (C:\sts\EmployeeData\bin\main started by Bawankar in C:\sts\EmployeeData)
+2023-04-27 02:51:43.551  INFO 23368 --- [main] c.p.e.EmployeeDataApplication            : No active profile set, falling back to 1 default profile: "default"
+2023-04-27 02:51:44.229  INFO 23368 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-04-27 02:51:44.290  INFO 23368 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 49 ms. Found 1 JPA repository interfaces.
+2023-04-27 02:51:44.550  INFO 23368 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.ws.config.annotation.DelegatingWsConfiguration' of type [org.springframework.ws.config.annotation.DelegatingWsConfiguration$$EnhancerBySpringCGLIB$$d1ab0d13] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2023-04-27 02:51:44.611  INFO 23368 --- [main] .w.s.a.s.AnnotationActionEndpointMapping : Supporting [WS-Addressing August 2004, WS-Addressing 1.0]
+2023-04-27 02:51:44.890  INFO 23368 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8484 (https)
+2023-04-27 02:51:44.901  INFO 23368 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-04-27 02:51:44.902  INFO 23368 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.74]
+2023-04-27 02:51:45.033  INFO 23368 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-04-27 02:51:45.033  INFO 23368 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1420 ms
+2023-04-27 02:51:45.180  INFO 23368 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-04-27 02:51:45.240  INFO 23368 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.6.15.Final
+2023-04-27 02:51:45.406  INFO 23368 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2023-04-27 02:51:45.515  INFO 23368 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2023-04-27 02:51:45.823  INFO 23368 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2023-04-27 02:51:45.857  INFO 23368 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2023-04-27 02:51:46.512  INFO 23368 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-04-27 02:51:46.521  INFO 23368 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-04-27 02:51:46.823  WARN 23368 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-04-27 02:51:47.760  INFO 23368 --- [main] o.a.t.util.net.NioEndpoint.certificate   : Connector [https-jsse-nio-8484], TLS virtual host [_default_], certificate type [UNDEFINED] configured from [file:/C:/sts/EmployeeData/bin/main/keystore.jks] using alias [mydomain] and with trust store [null]
+2023-04-27 02:51:47.782  INFO 23368 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8484 (https) with context path ''
+2023-04-27 02:51:47.791  INFO 23368 --- [main] c.p.e.EmployeeDataApplication            : Started EmployeeDataApplication in 4.667 seconds (JVM running for 5.41)
+2023-04-27 02:54:08.898  INFO 23368 --- [https-jsse-nio-8484-exec-6] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-04-27 02:54:08.899  INFO 23368 --- [https-jsse-nio-8484-exec-6] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2023-04-27 02:54:08.900  INFO 23368 --- [https-jsse-nio-8484-exec-6] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2023-04-27 02:54:08.932  INFO 23368 --- [https-jsse-nio-8484-exec-6] c.p.e.controller.EmployeeController      : Getting user by ID: 349 checking..............
